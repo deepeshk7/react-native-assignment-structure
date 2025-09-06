@@ -1,4 +1,4 @@
-import { INotificationModel, NotificationType } from '../types/notifications';
+import { INotification, NotificationType } from '../types/notifications';
 
 interface NotificationData {
   id: string;
@@ -12,7 +12,7 @@ interface NotificationData {
   hasRedDot?: boolean;
 }
 
-export class NotificationModel implements INotificationModel {
+export class NotificationModel implements INotification {
   public id: string;
   public title: string;
   public description: string;
