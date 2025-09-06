@@ -13,6 +13,7 @@ interface Styles {
   option: ViewStyle;
   optionText: ViewStyle;
   destructive: ViewStyle;
+ 
 }
 
 export const styles = StyleSheet.create<Styles>({
